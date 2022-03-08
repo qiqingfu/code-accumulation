@@ -14,7 +14,7 @@ const cloneDate = (value: Date) => {
  */
 const getStartDateOfWeek = (
   value: Date,
-  startDateOfWeek: Options['startDateOfWeek'] = 0
+  startDateOfWeek: Options['startDateOfWeek'] = startDateOfWeekDefaultValue
 ) => {
   const date = cloneDate(value);
   /**
